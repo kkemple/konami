@@ -14,13 +14,13 @@ Using this object, you can easily add an Easter Egg to your site/application for
 
 First you must include the script file in the header of the page:
 
-```
-<script src="//js/vanilla.konami.js"></script>
+```javascript
+<script src="js/vanilla.konami.js"></script>
 ```
 
 Then at the bottom of the page you need to instantiate a new Konami object and pass in the configuration for the instance.
 
-```
+```javascript
 var config = {
 	cheat : function () {
 		alert( "Konami!!" );
